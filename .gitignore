@@ -7,4 +7,14 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Generated outputs (reproducible from notebooks)
+output/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Interactive session data
+data/selected_points.npz
